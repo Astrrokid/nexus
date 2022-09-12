@@ -1,0 +1,312 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headerwrapper{
+    margin: 50px 0 0 30px;
+    display: flex;
+    gap: 500px;
+    position: relative;
+    
+}
+.line{
+    position: absolute;
+    border-bottom: 2px solid grey;
+    width: 450px;
+    left: 10%;
+    top: 40px;
+    opacity: 0.3;
+    z-index: 2;
+}
+ .logo{
+    padding-top: 20px;
+    
+}
+
+
+nav{
+    width: 100%;
+    
+    padding: 12px 0 0 70px;
+    height: 70px;
+    
+    
+} 
+nav a{
+    
+    margin: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(189,193,200);
+    font-weight: 100;
+   
+}
+nav a span{
+    font-weight: bold;
+}
+
+.navItems{
+    height: 20px;
+    margin: 15px 0;
+}
+/* section */
+
+.sectionwrapper{
+    color: rgb(189,193,200);
+    margin: 250px auto auto 100px;
+}
+.section{
+    display: flex;
+    gap: 50px;
+
+}
+.speech{
+    width: 40%;
+    
+}
+
+.so{
+    font-size: 23px ;
+    word-spacing: 2px;
+    
+    font-weight: 100;
+    
+    margin: 0 0 0 20px;
+}
+.space{
+    font-size: 120px;
+    
+    letter-spacing: 10px;
+    margin: 0 0 0 20px;
+
+}
+.let{
+    font-size: 18px;
+}
+
+.circlewrapper{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    
+}
+.circle{
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px; 
+    border-radius: 100%;
+    line-height: 200px;
+    font-size: 25px;
+    color: #3a3a3c;
+    margin-left: 300px;
+    margin-top: 25px;
+
+}
+/* destination */
+.dSectionwrapper{
+    margin-top: 80px ;
+    margin-left: 150px;
+}
+.dheader{
+    font-size: 23px;
+    letter-spacing: 2px;
+    
+}
+.dheader span{
+    padding-right: 30px;
+    color: #323741;
+    font-weight: 1000;
+}
+.planetarywrapper{
+    display: flex;
+    gap: 80px;
+    margin: 90px auto auto 30px;
+    
+}
+.celestialinfo{
+    width: 65%;
+    margin-top: -50px;
+}
+
+
+.cNav{
+    
+    width: 100%;
+    padding: 12px 0 0 auto;
+    height: 70px;
+    
+
+}
+.cNav a{
+        
+    margin: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(189,193,200);
+    font-weight: 100;
+   
+}
+.cName p{
+    font-size: 95px;
+    margin: 0;
+}
+
+.cDT{
+    display: flex;
+    border-top: 2px solid grey;
+    
+    margin-top: 70px;
+}
+.cD, .cT{
+    width: 50%;
+    
+}
+.cDT p{
+    margin: 20px 0 0 0;
+}
+
+.cDT h3{
+    font-size: 30px;
+    margin: 0;
+    line-height: 50px;
+}
+
+/* TEAM */
+.tSectionwrapper{
+    margin: 100px auto 0 160px;
+}
+
+
+.tContainer{
+    display: flex;
+    margin-top: 30px;
+
+}
+.tInfocontainer{
+    width: 40%;
+}
+.tInfo{
+    margin-top: 120px;
+
+}
+.tCrew h3{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.tCrew h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.tCrew p{
+    line-height: 25px;
+}
+
+
+.tImg{
+    margin: 30px auto 0 100px;
+}
+.dot{
+    margin: 120px auto auto auto;
+    
+}
+.tDot{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: #353740;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+/* TECHNOLOGIES */
+.techContainer{
+    display: flex;
+    
+}
+.techMain{
+    display: flex;
+    margin: 100px auto auto auto;
+}
+.techNumber{
+    width: 10%;
+    text-align: center;
+}
+
+.techNumber a{
+    text-decoration: none;
+    color: rgb(189,193,200);
+    font-size: 30px;
+}
+.techNav{
+    width: 65px;
+    height: 65px;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    display: block;
+    line-height: 65px;
+    margin-top: 30px;
+
+}
+
+.techInfo{
+    width: 69%;
+    margin: auto auto auto 50px;
+}
+.techInfo p{
+    margin: 30px auto auto auto;
+    line-height: 27px;
+}
+.techInfo h1{
+    margin: 0;
+}
+.techImg{
+    width: 45%;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+    .headerwrapper{
+        gap: 250px;
+    }
+    .line{
+        width: 250px;
+    }
+    .sectionwrapper{
+        margin: 125px auto 120px 50px;
+    }
+    .section{
+        gap: 0;
+    }
+    .dSectionwrapper{
+        margin: 125px auto 120px 50px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px){
+
+}
+@media screen and (max-width: 412px){
+
+}
+@media screen and (max-width: 375px){
+
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 300px){
+
+}
